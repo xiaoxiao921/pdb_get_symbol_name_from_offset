@@ -418,7 +418,8 @@ int main(int argc, char *argv[])
 	if (argc == 1) // If no arguments are provided, display help text
 	{
 		std::cout << "Usage: " << argv[0] << " -pdb <pdb_path> -log <log_path> -dll <dll_name>\n\n";
-		std::cout << "Description: This program reads a PDB file and a log file to match RVA offsets with symbols.\n\n";
+		std::cout << "Description: This program reads a PDB file and a ReturnOfModding log file to match RVA offsets "
+		             "with symbols.\n\n";
 		std::cout << "To get the matching PDB file:\n";
 		std::cout << "1. Open the LogOutput.log file.\n";
 		std::cout << "2. Retrieve the Git hash at the top of the log.\n";
